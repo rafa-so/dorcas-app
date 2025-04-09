@@ -1,0 +1,7 @@
+@startuml use-case
+    :membro:
+
+    :membro: --> (Invoca o bot)
+    :membro: --> (Escolhe opções)
+    :membro: --> (Cadastra conteúdo)
+@enduml

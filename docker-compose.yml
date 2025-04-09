@@ -13,3 +13,9 @@ services:
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules
+
+  plantuml:
+    image: plantuml/plantuml-server:jetty
+    container_name: dorcas-plantuml-server
+    ports:
+      - "8080:8080"
